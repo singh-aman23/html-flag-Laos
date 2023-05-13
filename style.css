@@ -1,0 +1,45 @@
+#flagboundary{
+    height:600px;
+    width:900px;
+}
+.redpart,#middlepart{
+    width:900px;
+}
+.redpart{
+    height:150px;
+    background-color:rgb(206, 17, 38);
+
+}
+#middlepart{
+    height:295px;
+    position:relative;
+    background-color:rgb(0, 40, 104);
+
+}
+#circle{
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    position:absolute;
+    top:48px;
+    left:350px;
+    background-color: white;
+
+}
+#circle>p{
+    position:relative;
+    top: -48px;
+    left: 45px;
+    font-size:67px;
+}
+.redpart>p{
+    position:relative;
+    top:auto;
+    left: 360px;
+    color:white;
+    font-size:60px;
+}
+#of{
+    position:relative;
+    left:26px;
+}
